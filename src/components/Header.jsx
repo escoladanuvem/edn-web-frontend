@@ -90,16 +90,13 @@ class Header extends React.Component {
                                     Início
                                 </ListItem>
                                 <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Cursos
-                                </ListItem>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Contato
-                                </ListItem>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
                                     Sobre
                                 </ListItem>
                                 <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Quem Somos
+                                    Nossa Rede
+                                </ListItem>
+                                <ListItem component={Link} button href="#" className={classes.listItem}>
+                                    Login
                                 </ListItem>
                             </List>
                         </SwipeableDrawer>
@@ -109,16 +106,13 @@ class Header extends React.Component {
                                 Início
                             </Link>
                             <Link variant="button" className={classes.navLinks} href="#">
-                                Cursos
-                            </Link>
-                            <Link variant="button" className={classes.navLinks} href="#">
-                                Contato
-                            </Link>
-                            <Link variant="button" className={classes.navLinks} href="#">
                                 Sobre
                             </Link>
                             <Link variant="button" className={classes.navLinks} href="#">
-                                Quem Somos
+                                Nossa Rede
+                            </Link>
+                            <Link variant="button" className={classes.navLinks} href="#">
+                                Login
                             </Link>
                         </nav>
                     </Toolbar>
