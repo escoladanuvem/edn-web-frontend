@@ -9,7 +9,9 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Routes />
+      <main>
+        <Routes />
+      </main>
       <Footer />
     </React.Fragment>
   );

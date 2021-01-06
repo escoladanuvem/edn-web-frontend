@@ -73,51 +73,49 @@ class Header extends React.Component {
         const { classes } = this.props;
 
         return (
-            <React.Fragment>
-                <AppBar position="static" color="inherit" className={classes.appNavbar}>
-                    <Toolbar className={classes.toolbar}>
-                        <img src={Logo} alt="Escola da Nuvem logo" className={classes.navbarImg} />
-                        <span className={classes.toolbarSpace}></span>
-                        {/* BEGIN MOBILE MENU */}
-                        <nav className={classes.iconContainer}>
-                            <IconButton onClick={this.mobileMenuOpen} className={classes.iconButton} color="inherit" aria-label="Menu">
-                                <MenuIcon />
-                            </IconButton>
-                        </nav>
-                        <SwipeableDrawer anchor="right" open={this.state.menuDrawer} onClose={this.mobileMenuClose} onOpen={this.mobileMenuOpen}>
-                            <List>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Início
-                                </ListItem>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Sobre
-                                </ListItem>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Nossa Rede
-                                </ListItem>
-                                <ListItem component={Link} button href="#" className={classes.listItem}>
-                                    Login
-                                </ListItem>
-                            </List>
-                        </SwipeableDrawer>
-                        {/* END MOBILE MENU */}
-                        <nav className={classes.linksContainer}>
-                            <Link variant="button" className={classes.navLinks} href="#">
+            <AppBar position="static" color="inherit" className={classes.appNavbar}>
+                <Toolbar className={classes.toolbar}>
+                    <img src={Logo} alt="Escola da Nuvem logo" className={classes.navbarImg} />
+                    <span className={classes.toolbarSpace}></span>
+                    {/* BEGIN MOBILE MENU */}
+                    <nav className={classes.iconContainer}>
+                        <IconButton onClick={this.mobileMenuOpen} className={classes.iconButton} color="inherit" aria-label="Menu">
+                            <MenuIcon />
+                        </IconButton>
+                    </nav>
+                    <SwipeableDrawer anchor="right" open={this.state.menuDrawer} onClose={this.mobileMenuClose} onOpen={this.mobileMenuOpen}>
+                        <List>
+                            <ListItem component={Link} button href="/" className={classes.listItem}>
                                 Início
-                            </Link>
-                            <Link variant="button" className={classes.navLinks} href="#">
+                                </ListItem>
+                            <ListItem component={Link} button href="about" className={classes.listItem}>
                                 Sobre
-                            </Link>
-                            <Link variant="button" className={classes.navLinks} href="#">
+                                </ListItem>
+                            <ListItem component={Link} button href="network" className={classes.listItem}>
                                 Nossa Rede
-                            </Link>
-                            <Link variant="button" className={classes.navLinks} href="#">
+                                </ListItem>
+                            <ListItem component={Link} button href="login" className={classes.listItem}>
                                 Login
+                                </ListItem>
+                        </List>
+                    </SwipeableDrawer>
+                    {/* END MOBILE MENU */}
+                    <nav className={classes.linksContainer}>
+                        <Link variant="button" className={classes.navLinks} href="/">
+                            Início
                             </Link>
-                        </nav>
-                    </Toolbar>
-                </AppBar>
-            </React.Fragment>
+                        <Link variant="button" className={classes.navLinks} href="about">
+                            Sobre
+                            </Link>
+                        <Link variant="button" className={classes.navLinks} href="network">
+                            Nossa Rede
+                            </Link>
+                        <Link variant="button" className={classes.navLinks} href="login">
+                            Login
+                            </Link>
+                    </nav>
+                </Toolbar>
+            </AppBar>
         );
     }
 }

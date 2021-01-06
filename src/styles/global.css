@@ -3,23 +3,3 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    color: black;
-    background-color: #FFFFFF;
-    font: 300 18px Lato, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    color: black;
-    font: 400 31px Ropa Sans, sans-serif;
-}
-
-button {
-    color: black;
-    font: 400 18px Ropa Sans, sans-serif;
-}
