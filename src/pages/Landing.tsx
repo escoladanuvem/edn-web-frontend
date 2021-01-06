@@ -6,7 +6,7 @@ import Illustration from '../images/landing-illustration.svg';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        height: '80vh',
+        minHeight: '80vh',
         width: '90vw',
         display: 'flex',
         flexDirection: 'column',

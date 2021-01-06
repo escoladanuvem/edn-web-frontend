@@ -1,18 +1,25 @@
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
-import Box from '@material-ui/core/Box';
+import { makeStyles } from '@material-ui/core/styles';
+import Container from '@material-ui/core/Container';
 
+const useStyles = makeStyles((theme) => ({
+    footer: {
+        padding: theme.spacing(3, 2),
+        color: '#CFCFCF'
+    },
+}));
 
 function Footer() {
+    const classes = useStyles();
+
     return (
-        <Box mt={5}>
-            <Typography variant="body2" color="textSecondary" align="center">
-                {'© Todos os direitos reservados - '}
-                <Link color="inherit" href="https://www.escoladanuvem.com.br/">
-                    Escola da Nuvem
-                </Link>
-            </Typography>
-        </Box>
+        <footer className={classes.footer}>
+            <Container maxWidth="sm">
+                <Typography align="center">
+                    © Todos os direitos reservados - Escola da Nuvem
+                </Typography>
+            </Container>
+        </footer>
     );
 }
 
