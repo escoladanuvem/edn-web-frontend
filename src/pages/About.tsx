@@ -24,8 +24,8 @@ const themeDark = createMuiTheme({
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        width: '90vw',
         minHeight: '80vh',
+        width: '90vw',
         display: 'flex',
         justifyContent: 'center',
         marginTop: theme.spacing(5),

@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
         minHeight: '80vh',
         width: '90vw',
         display: 'flex',
-        flexDirection: 'column',
         justifyContent: 'center',
         marginTop: theme.spacing(5),
         marginBottom: theme.spacing(5),
