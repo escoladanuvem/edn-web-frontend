@@ -1,46 +1,79 @@
-# Getting Started with Create React App
+<h1 align="center">
+<img alt="EDN" title="EDN" src="images/logo.svg" width="10%">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+Portal Escola da Nuvem
+</h2>
 
-## Available Scripts
+<p align="center">
+ <a href="#dizzy-roadmap">Roadmap</a> •
+ <a href="#wrench-tecnologias">Tecnologias</a> •
+ <a href="#computer-desenvolvendo">Desenvolvendo</a> • 
+ <a href="#magright-testes">Testes</a> • 
+ <a href="#cloud-implantando">Implantando</a> • 
+ <a href="#scroll-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Happy" src="images/mockup.png" width="100%">
+</p>
 
-### `npm start`
+A Escola da Nuvem é uma organização não governamental (ONG) que prepara estudantes para carreiras na nuvem e os conecta a empregadores em potencial. Não é necessário ter experiência em tecnologia para se inscrever. Os cursos e o uso da plataforma é gratuito para alunos e alunas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :dizzy: Roadmap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+TBD
 
-### `npm test`
+## :wrench: Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para executar a aplicação os pré-requisitos são:
 
-### `npm run build`
+* NodeJS 15.3; 
+* ReactJS 17.0; 
+* TypeScript; 
+* Git; 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :computer: Desenvolvendo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ `git clone https://github.com/escoladanuvem/edn-web-frontend.git`
 
-### `npm run eject`
+2. Abra o projeto em sua IDE preferida;
+3. Instale as dependências do projeto executando:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ `npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicie a aplicação:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ `npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## :mag_right: Testes
 
-## Learn More
+TBD
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :cloud: Implantando
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+TBD
+
+## :heart: Contribuindo
+
+Veja o arquivo [CONTRIBUTING](/CONTRIBUTING.md) para mais informaões.
+
+### Contribuidores:
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/gabrielmartinigit"><img style="border-radius: 100%; " src="https://avatars2.githubusercontent.com/u/30352127?s=460&u=aeb656ad7a9ba7c7531db7bdd65ff76d5a452753&v=4" width="100px; " alt=""/><br /><sub><b>Gabriel Martini</b></sub></a><br /></td>
+  </tr>
+</table>
+
+## :scroll: Licença
+
+Este projeto está licenciado sob a GNU General Public License v3.0 ou posterior.
+Veja o arquivo [LICENSE](/LICENSE).
+
+---
+
+Feito com ♥ por Escola da Nuvem :wave: [Participe da nossa comunidade!]()
