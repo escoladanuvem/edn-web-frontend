@@ -76,4 +76,4 @@ Veja o arquivo [LICENSE](/LICENSE).
 
 ---
 
-Feito com ♥ por Escola da Nuvem :wave: [Participe da nossa comunidade!]()
+Feito com ♥ por Escola da Nuvem :wave: [Participe da nossa comunidade!](https://discord.gg/HThnQ9zDHC)
