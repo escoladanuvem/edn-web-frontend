@@ -74,7 +74,7 @@ function Login() {
                 <Grid item xs className={classes.loginCardContainer}>
                     <Card className={classes.loginCard}>
                         <CardContent>
-                            <h1 className={classes.loginTitle}>Empresas</h1>
+                            <h1 className={classes.loginTitle}>Empregadores</h1>
                             <p className={classes.loginText}>Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
                         </CardContent>
                         <div className={classes.loginCardContainer}>
