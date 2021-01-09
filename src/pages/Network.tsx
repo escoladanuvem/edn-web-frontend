@@ -24,9 +24,18 @@ const useStyles = makeStyles((theme) => ({
         flexDirection: 'column',
         justifyContent: 'flex-start',
     },
-    formElement: {
+    formTitle: {
         marginBottom: theme.spacing(2),
         marginTop: theme.spacing(4),
+        fontFamily: 'Ropa Sans, sans- serif',
+        fontSize: '32px',
+        textAlign: 'center',
+    },
+    formSubtitle: {
+        marginBottom: theme.spacing(2),
+        marginTop: theme.spacing(4),
+        fontFamily: 'Lato, sans- serif',
+        fontSize: '18px',
     },
     formActions: {
         display: 'flex',
@@ -34,13 +43,21 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'space-between',
         marginTop: theme.spacing(4),
     },
+    formField: {
+        borderRadius: '100px',
+    },
     buttonTags: {
         marginRight: theme.spacing(2),
         borderRadius: '100px',
         fontFamily: 'Ropa Sans, sans- serif',
-        fontSize: '14px',
+        fontSize: '12px',
         color: '#011633',
         borderColor: '#011633',
+    },
+    buttonActions: {
+        fontFamily: 'Ropa Sans, sans- serif',
+        fontSize: '16px',
+        color: '#011633',
     },
 }));
 
@@ -48,17 +65,17 @@ function Network() {
     const classes = useStyles();
 
     return (
-        <Container className={classes.root} maxWidth="md">
+        <Container className={classes.root} maxWidth="sm">
             <Grid
                 container
                 alignItems="center"
             >
                 <Grid item xs={12} className={classes.networkContainer}>
                     <div className={classes.formContainer}>
-                        <h1 className={classes.formElement}>Quais habilidades você está procurando?</h1>
-                        <TextField label="Exemplo: devops" variant="outlined" />
+                        <h1 className={classes.formTitle}>Quais habilidades você está procurando?</h1>
+                        <TextField className={classes.formField} label="Exemplo: devops" variant="outlined" />
 
-                        <h2 className={classes.formElement}>Termos mais buscados</h2>
+                        <h2 className={classes.formSubtitle}>Termos mais buscados</h2>
                         <div>
                             <Button className={classes.buttonTags} variant="outlined">
                                 +sysops
@@ -72,10 +89,10 @@ function Network() {
                         </div>
                     </div>
                     <div className={classes.formActions}>
-                        <Button variant="text">
+                        <Button className={classes.buttonActions} variant="text" href='/'>
                             {'< voltar'}
                         </Button>
-                        <Button variant="text">
+                        <Button className={classes.buttonActions} variant="text">
                             {'avançar >'}
                         </Button>
                     </div>
